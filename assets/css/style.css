@@ -1,0 +1,76 @@
+body, html {
+	font-family: sans-serif;
+	font-size: 18px;
+	background-color: #a27676;
+	color: #fff;
+}
+
+#container {
+	width: 50%;
+	margin: 80px auto;
+	text-align: center;
+	border: 3px solid #fff;
+	border-radius: 12px;
+}
+
+h1 {
+	font-size: 38px;
+	font-weight: bolder;
+	margin: 20px 0;
+}
+
+div {
+	margin: 20px 0;
+	padding: 5px;
+}
+
+.score {
+	width: 48%;
+	display: inline-block;
+	font-weight: bolder;
+}
+
+#my-score-number {
+	display: block;
+}
+
+#global-number,
+#fruits-container,
+#my-score-number {
+	margin: 20px 0;
+	font-size: 38px;
+	font-weight: lighter;
+}
+
+.btn {
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	display: inline-block;
+	background-size: cover;
+	border-radius: 12px;
+}
+
+.btn-apple {
+	background-image: url("../images/apple.jpg");
+}
+
+.btn-pear {
+	background-image: url("../images/pear.jpg");
+}
+
+.btn-peach {
+	background-image: url("../images/peach.jpg");
+}
+
+.btn-kiwi {
+	background-image: url("../images/kiwi.jpg");
+}
+
+@media screen and (max-width: 760px) {
+
+	#container {
+		width: 80%;
+		margin: 40px auto;
+	}
+}
